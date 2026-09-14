@@ -57,6 +57,7 @@ To compile the application into a standalone `.exe` using PyInstaller:
 pip install customtkinter requests pillow pystray
 pyinstaller --noconsole --onefile --icon=az.ico az_downloader.py
 
+---
 ==================================================================================================================================================
 
 🧩 Google Chrome Extension Installation
