@@ -56,3 +56,29 @@ To compile the application into a standalone `.exe` using PyInstaller:
 ```bash
 pip install customtkinter requests pillow pystray
 pyinstaller --noconsole --onefile --icon=az.ico az_downloader.py
+
+==================================================================================================================================================
+## 🧩 Google Chrome Extension Installation
+
+For the Google Chrome extension, you need to install it manually because it is not yet available on the web store. 
+
+Here is how to do it:
+
+### **How to Manually Install the Chrome Extension**
+
+1. **Prepare the Extension Folder**
+   * Ensure you have a folder containing the extension's source files (such as `manifest.json`, background scripts, and popup files) configured to connect to the app's local server at `127.0.0.1:18888`.
+
+2. **Open the Chrome Extensions Page**
+   * Open **Google Chrome** on your computer.
+   * Type `chrome://extensions/` into the address bar and press **Enter**.
+
+3. **Enable Developer Mode**
+   * In the top-right corner of the Extensions page, toggle the switch to turn on **Developer mode**.
+
+4. **Load the Unpacked Extension**
+   * In the top-left corner, click the **Load unpacked** button.
+   * Browse to and select the folder where you saved your extension source files, then click **Select Folder**.
+
+5. **Done**
+   * The **AZ Download Manager** extension will now appear in your extension list and is ready to automatically capture download links.
