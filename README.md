@@ -49,16 +49,6 @@ Click the **Setting** button to configure your preferences:
 
 ---
 
-## 📦 Building from Source
-
-To compile the application into a standalone `.exe` using PyInstaller:
-
-```bash
-pip install customtkinter requests pillow pystray
-pyinstaller --noconsole --onefile --icon=az.ico az_downloader.py
-
----
-
 **##🧩 Google Chrome Extension Installation**
 
 For the Google Chrome extension, you need to install it manually because it is not yet available on the web store. 
