@@ -49,8 +49,7 @@ Click the **Setting** button to configure your preferences:
 
 ---
 
-**🧩 Google Chrome Extension Installation**
-
+## 🧩 Google Chrome Extension Installation 
 For the Google Chrome extension, you need to install it manually because it is not yet available on the web store. 
 
 Here is how to do it:
