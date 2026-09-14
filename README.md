@@ -74,5 +74,7 @@ Here is how to do it:
 5. **Done**
    * The **AZ Download Manager** extension will now appear in your extension list and is ready to automatically capture download links.
 
-
+##  Screenshot
 ![Screenshot Aplikasi](assets/sc/MainApp.png)
+![Screenshot Aplikasi](assets/sc/Setting.png)
+![Screenshot Aplikasi](assets/sc/Popup.png)
